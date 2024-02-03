@@ -166,19 +166,19 @@ public class GiocoLotto {
         }
         System.out.println("singoli fatti:"+cont1);
         if(s2){
-            cont2=getFactorial(cont1)/getFactorial(2)*getFactorial((cont1-2));
+            cont2=getFactorial(cont1)/(getFactorial(2)*getFactorial((cont1-2)));
             System.out.println("Ambo fatti:"+cont2);
         }
         if(s3){
-            cont3=getFactorial(cont1)/getFactorial(3)*getFactorial((cont1-3));
+            cont3=getFactorial(cont1)/(getFactorial(3)*getFactorial((cont1-3)));
             System.out.println("terni fatti:"+cont3);
         }
         if(s4){
-            cont4=getFactorial(cont1)/getFactorial(4)*getFactorial((cont1-4));
+            cont4=getFactorial(cont1)/(getFactorial(4)*getFactorial((cont1-4)));
             System.out.println("quterni fatti:"+cont4);
         }
         if(s5){
-            cont5=getFactorial(cont1)/getFactorial(5)*getFactorial((cont1-5));
+            cont5=getFactorial(cont1)/(getFactorial(5)*getFactorial((cont1-5)));
             System.out.println("cinquine fatti:"+cont5);
         }
 
